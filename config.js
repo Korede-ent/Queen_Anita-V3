@@ -57,7 +57,7 @@ global.rpg = {
 //auto functioner
 global.autoTyping = false;                //make true to enable auto typing
 global.autoRecord = false;                //make true to enable auto recording
-global.statusseen = false;                 //make true to view statuses
+global.autoViewStatus = true;       //make true to view statuses
 global.unavailable = true;     
 //to show your real presence  
 global.available = false;   
@@ -67,9 +67,18 @@ global.autoreadmessages = false;
 global.chatbot = false;
 global.autoreact = false;
 
+global.welcome = false;
+
+global.prefix = '.';
+
 global.autobio = false;
 
-global.autoViewStatus = false;
+global.antilink = false;
+
+global.antilinkkick = false;
+
+global.antilinkwarn = false;
+
 //_____________//
 // Don't change it
 global.antibot = false
